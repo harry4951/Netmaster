@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="oeKPLb" name="Nettest_CB" projectType="consoleapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Nettest_CB" includeBinaryInAppConfig="1"
+              jucerVersion="4.1.0">
+  <MAINGROUP id="hjGYfg" name="Nettest_CB">
+    <GROUP id="{E6AB5458-AC2C-3DBA-D38D-F828ADEA1684}" name="Source">
+      <FILE id="JmM6Dr" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <CODEBLOCKS_WINDOWS targetFolder="Builds/CodeBlocksWindows">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Nettest_CB"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="Nettest_CB"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../modules"/>
+        <MODULEPATH id="juce_events" path="../modules"/>
+        <MODULEPATH id="juce_graphics" path="../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../modules"/>
+        <MODULEPATH id="juce_cryptography" path="../modules"/>
+        <MODULEPATH id="juce_video" path="../modules"/>
+        <MODULEPATH id="juce_opengl" path="../modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS_WINDOWS>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
